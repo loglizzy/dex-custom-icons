@@ -1,4 +1,3 @@
-currentTheme = "Graphite"
 colorPalettes = {
 	['Platinum'] = {
 		red = "BF4040",
