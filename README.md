@@ -1,5 +1,5 @@
 # WARNING
-ALWAYS USE THE LOADSTRING SCRIPT!
+[b]ALWAYS USE THE LOADSTRING SCRIPT![/b]
 
 as im most likely to add icons for more classes and fix bugs that often happens
 
