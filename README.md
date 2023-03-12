@@ -1,7 +1,7 @@
 # WARNING
-[b]ALWAYS USE THE LOADSTRING SCRIPT![/b]
+**ALWAYS USE THE LOADSTRING SCRIPT**
 
-as im most likely to add icons for more classes and fix bugs that often happens
+As im most likely to add icons for more classes and fix bugs that often happens
 
 # SCRIPT
 ```lua
