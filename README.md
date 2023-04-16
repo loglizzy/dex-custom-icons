@@ -3,7 +3,7 @@
 -- Change to an valid theme (example: "Green", "Blue)
 getfenv(1).currentTheme = "Mono"
 
--- Some few modifiers to improve the explorer like you want
+-- Some few modifiers to shape the explorer like you want to
 getfenv(1).modfiers = {
     SearchOnType = true, -- Auto updates the explorer list when you type on the search box
     CustomColor = Color3.fromRGB(255, 255, 255), -- Change its RGB value to apply an custom color
