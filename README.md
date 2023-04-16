@@ -13,5 +13,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-i
 * Blue
 * Red
 
-# Update
+# Update 04/16
 I updated the icon map, it supports all the current classes right now
