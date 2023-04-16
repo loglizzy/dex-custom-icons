@@ -1,7 +1,7 @@
 # Script
 ```lua
 -- Change to an valid theme (example: "Green", "Blue)
-getfenv(1).currentTheme = "Colourful"
+getfenv(1).currentTheme = "Mono"
 
 -- Change its RGB value to apply an custom color (example: equivalent to red in RGB: 255, 0, 0)
 getfenv(1).customColor = Color3.fromRGB(255, 255, 255)
