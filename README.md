@@ -3,12 +3,11 @@
 -- Change to an valid theme (example: "Green", "Blue)
 getfenv(1).currentTheme = "Mono"
 
--- Change its RGB value to apply an custom color (example: equivalent to red in RGB: 255, 0, 0)
-getfenv(1).customColor = Color3.fromRGB(255, 255, 255)
-
 -- Some few modifiers to improve the explorer like you want
 getfenv(1).modfiers = {
-    SearchOnType = true -- auto updates the explorer list when you type on the search box
+    SearchOnType = true, -- Auto updates the explorer list when you type on the search box
+    CustomColor = Color3.fromRGB(255, 255, 255), -- Change its RGB value to apply an custom color
+    LocalPlayerColor = Color3.new(0.8, 1, 0.8) -- Will change the color of the local player node/button
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-icons/main/main.lua"))()
