@@ -1,3 +1,8 @@
+modfiers = modfiers or {}
+for i, v in next, modfiers do
+    getfenv(1)[i] = v
+end
+
 iconImages = {
     Mono = "rbxassetid://13154391952",
     Green = "rbxassetid://13155780418",
@@ -9,7 +14,7 @@ iconImages = {
 }
 
 if not iconImages[currentTheme] then
-    currentTheme = "Colourful"
+    currentTheme = "Mono"
 end
 
 iconData = {
@@ -2472,9 +2477,15 @@ return search]==]
 
 		Lib.ViewportTextBox.convert(searchBox)
 
-		searchBox.FocusLost:Connect(function()
-			Explorer.DoSearch(searchBox.Text)
-		end)
+        if SearchOnType then
+            searchBox:GetPropertyChangedSignal("Text"):Connect(function()
+	        	Explorer.DoSearch(searchBox.Text)
+	        end)
+        else
+	        searchBox.FocusLost:Connect(function()
+	        	Explorer.DoSearch(searchBox.Text)
+	        end)
+        end
 	end
 
 	Explorer.InitEntryTemplate = function()
@@ -3485,14 +3496,10 @@ local function main()
 			    end
 			else
 			    index = iconData[instance.ClassName]
-			    if instance == game.Players.LocalPlayer then
-			        if customColor then
-			            obj.ImageColor3 = Color3.new(customColor.R * 1.3, customColor.G * 1.3, customColor.B * 1.3)
-			        else
-			            obj.ImageColor3 = Color3.new(.8, 1, .8)
-			        end
+			    if instance == game.Players.LocalPlayer and LocalPlayerColor then
+			        obj.ImageColor3 = LocalPlayerColor
 			    else
-			        obj.ImageColor3 = customColor or Color3.new(1, 1, 1)
+			        obj.ImageColor3 = CustomColor or Color3.new(1, 1, 1)
 			    end
 		        
 			    obj.ImageRectOffset = Vector2.new(((index - 1)%25) * 32, math.floor((index - 1) / 25) * 32)
