@@ -14,7 +14,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-i
 ```
 
 # Example
-![image](https://user-images.githubusercontent.com/72479668/232337697-7571fc09-d337-43ca-b242-b54c94ac9d75.png)
+Using the script above
+![image](https://user-images.githubusercontent.com/72479668/232337731-378a175c-293a-4a70-9c51-e298b16b27b1.png)
 
 # Themes
 * Mono (white icons)
