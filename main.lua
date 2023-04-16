@@ -1,4 +1,3 @@
-
 iconImages = {
     Mono = "rbxassetid://13154391952",
     Green = "rbxassetid://13155780418",
@@ -8,6 +7,10 @@ iconImages = {
     Blue = "rbxassetid://13155778413",
     Colourful = "rbxassetid://13155827116",
 }
+
+if not iconImages[currentTheme] then
+    currentTheme = "Colourful"
+end
 
 iconData = {
 	"Accessory",
