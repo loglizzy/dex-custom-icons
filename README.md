@@ -10,7 +10,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-i
 ```
 
 # Themes
-* Mono
+* Mono (white icons)
 * Colourful
 * Green
 * Purple
