@@ -1,6 +1,6 @@
 # Script
 ```lua
--- Change to an valid theme (example: "Green", "Blue)
+-- Change to an valid theme
 getfenv(1).currentTheme = "Mono"
 
 -- Some few modifiers to shape the explorer like you want to
