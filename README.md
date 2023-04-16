@@ -13,6 +13,9 @@ getfenv(1).modfiers = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-icons/main/main.lua"))()
 ```
 
+# Example
+![image](https://user-images.githubusercontent.com/72479668/232337697-7571fc09-d337-43ca-b242-b54c94ac9d75.png)
+
 # Themes
 * Mono (white icons)
 * Colourful
