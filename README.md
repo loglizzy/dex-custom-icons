@@ -6,6 +6,11 @@ getfenv(1).currentTheme = "Mono"
 -- Change its RGB value to apply an custom color (example: equivalent to red in RGB: 255, 0, 0)
 getfenv(1).customColor = Color3.fromRGB(255, 255, 255)
 
+-- Some few modifiers to improve the explorer like you want
+getfenv(1).modfiers = {
+    SearchOnType = true -- auto updates the explorer list when you type on the search box
+}
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-icons/main/main.lua"))()
 ```
 
