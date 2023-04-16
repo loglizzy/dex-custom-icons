@@ -1,12 +1,14 @@
-# WARNING
-**ALWAYS USE THE LOADSTRING SCRIPT**
-
-As im most likely to add icons for more classes and fix bugs that often happens
-
-# SCRIPT
+# Script
 ```lua
-getfenv(1).currentTheme = "Graphite" -- Change to an valid theme(example: "White")
--- Themes: Graphite, Platinum, White, Red, Cyan, Yellow, Orange
-
+getfenv(1).currentTheme = "Colourful" -- Change to an valid theme (example: "Green", "Blue)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loglizzy/dex-custom-icons/main/main.lua"))()
 ```
+
+# Themes
+* Mono
+* Colourful
+* Green
+* Purple
+* Yellow
+* Blue
+* Red
